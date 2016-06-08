@@ -1,5 +1,5 @@
 
-Write Code Every Day
+Write Code Every Day, And Happy Coding!
 ===================================
 Algorithm
 -----------------------------------
