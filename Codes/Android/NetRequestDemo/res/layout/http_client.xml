@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.androidhttpdemo.MainActivity" >
+
+    <EditText
+        android:id="@+id/et_main_content1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="http://www.imooc.com/api/teacher" >
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="client_post"
+        android:text="httpClient_get" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="client_get"
+        android:text="httpClient_post" />
+
+    <TextView
+        android:id="@+id/et_main_content2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

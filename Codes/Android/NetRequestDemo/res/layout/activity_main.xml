@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.netrequestdemo.MainActivity" >
+
+    <Button
+        android:id="@+id/httpUrlConn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="httpUrlConn" />
+
+    <Button
+        android:id="@+id/httpClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="httpClient" />
+
+    <Button
+        android:id="@+id/volley"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="volley" />
+
+    <Button
+        android:id="@+id/Async"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Async" />
+
+    <Button
+        android:id="@+id/XUtil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XUtil" />
+    <Button
+        android:id="@+id/imageLoader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="imageLoader" />
+
+    <Button
+        android:id="@+id/okHttp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="okHttp" />
+
+</LinearLayout>

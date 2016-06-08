@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ExportedService" severity="ignore" />
+    <issue id="InlinedApi">
+        <ignore path="src/android/develop/utils/AppUtils.java" />
+    </issue>
+    <issue id="SimpleDateFormat">
+        <ignore path="src/android/develop/utils/date/DateUtils.java" />
+    </issue>
+</lint>
