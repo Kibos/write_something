@@ -1,0 +1,15 @@
+实现的功能：通过Android客户端访问web服务器，实现一个登录功能，判断用户输入的用户名与密码是否与数据库的一致。
+使用技术：服务端：Struts2+javabean+servlet(struts2的)
+          客户端：Android 4.0.2
+          数据库：MySQL
+          数据传输：Json
+
+使用说明：
+1、利用MySQL新建数据库，建数据表：usermsg，有两个属性：username、password,字段类型为varchar;
+2、将数据库名、用户名、密码，依次写入文件GetConn.java(位于\json-struts-android-mysql代码文件\服务端\JsonWeb\src\com\dongzi\db)的"connection=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/此处填DB名","DB帐号","DB密码");"
+3、如果表名和属性不按第一步建，则要改UserDaoImp.java(位于\json-struts-android-mysql代码文件\服务端\JsonWeb\src\com\dongdbimp)的"PreparedStatement ps=conn.prepareStatement("select * from usermsg where username=? and password=?");"
+4、利用MyEclipse导入工程（JsoWeb），步骤大概是file\import
+5、利用带有Android SDK的Eclipse导入JsonAndroid，该版本为Google API 16.
+
+
+
