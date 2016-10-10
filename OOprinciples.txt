@@ -1,0 +1,21 @@
+OO principles:
+1) Encapsulate what varies - identify the aspects of your application that vary and separate them from what stays the same.
+2) Program to interfaces, not implementations. 
+3) Favour composition over inheritance.
+4) Strive for loosely coupled designs between objects that interact.
+5) Classes should be open for extension, but closed for modification.
+6) Depend upon abstractions. Do not depend upon concrete classes.
+7) Principle of Least Knowledge - talk only to your immediate friends.
+8) Don't call us, we'll call you.
+9) A class should have only one reason to change.
+
+OO basics：
+1) Abstraction
+2) Encapsulation
+3) Polymorphism
+4) Inhritence
+
+Design patterns types：
+1) Creational
+2) Structural 
+3) Behavioral
